@@ -21,7 +21,7 @@ jobs:
         run: echo Hello, world!
 
   node-version:
-    runs-on: npm
+    runs-on: npm 
     steps:
       - uses: actions/checkout@v3 
       - name: Check node version
